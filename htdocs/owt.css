@@ -1,0 +1,44 @@
+#owt_head
+{
+  display: inline-block;
+  padding: 0px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+#owt_head a
+{
+  font-size: 11px;
+  text-decoration: underline;
+  color: #ccccff;
+}
+#owt_pids
+{
+  width: 200px;
+}
+.owt_pid
+{
+  width: calc(10% - 10px);
+  height: 5px;
+  display: inline-block;
+  margin-right: 1px;
+  background-color: #e6e7e8;
+}
+#owt_button
+{
+  display: inline-block
+}
+#owt_ptt
+{
+  background: #ff0000;
+}
+@media only screen and (max-height: 400px) {
+  #owt_head
+  {
+    margin-top: 3px !important;
+  }  
+  #owt_ptt
+  {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+}
