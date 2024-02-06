@@ -1,5 +1,6 @@
 # openWebTrX
-Web Bases Ham Radio remote station
+Web Bases Ham Radio remote station  
+![block diagram of setup](/grafics/ptt2.png)  
 
 Using SDR based [simple_openwebrx](https://github.com/oe2lsp/simple_openwebrx), and accessing the pc microphone over the browser for a return channel.
 
